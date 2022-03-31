@@ -60,8 +60,8 @@ let config = {
 		IS_BARRIER : [false, false, true, false ],
 		
 		// ActivityConstraint parameters
-		LAMBDA_ACT : [0,100,NaN,100],			// ActivityConstraint importance per cellkind
-		MAX_ACT : [0,100,NaN,100],				// Activity memory duration per cellkind
+		LAMBDA_ACT : [0,10,NaN,100],			// ActivityConstraint importance per cellkind
+		MAX_ACT : [0,10,NaN,100],				// Activity memory duration per cellkind
 		ACT_MEAN : "geometric"				// Is neighborhood activity computed as a
 		// "geometric" or "arithmetic" mean?
 								
